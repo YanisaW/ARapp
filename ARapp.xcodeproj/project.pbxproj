@@ -16,6 +16,8 @@
 		849560BE2459EF6B00B46CBB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849560BD2459EF6B00B46CBB /* LogInViewController.swift */; };
 		849560C02459F31100B46CBB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849560BF2459F31100B46CBB /* HomeVC.swift */; };
 		849560C22459F32700B46CBB /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849560C12459F32700B46CBB /* ARVC.swift */; };
+		84D9A877245B3A2900917063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9A876245B3A2900917063 /* ViewController.swift */; };
+		84D9A879245B4B2D00917063 /* FaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9A878245B4B2D00917063 /* FaceNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		849560BD2459EF6B00B46CBB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		849560BF2459F31100B46CBB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		849560C12459F32700B46CBB /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
+		84D9A876245B3A2900917063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D9A878245B4B2D00917063 /* FaceNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,10 @@
 				849560A72459E38100B46CBB /* AppDelegate.swift */,
 				849560A92459E38100B46CBB /* SceneDelegate.swift */,
 				849560AD2459E38100B46CBB /* Main.storyboard */,
+				84D9A878245B4B2D00917063 /* FaceNode.swift */,
 				849560BF2459F31100B46CBB /* HomeVC.swift */,
 				849560C12459F32700B46CBB /* ARVC.swift */,
+				84D9A876245B3A2900917063 /* ViewController.swift */,
 				849560BD2459EF6B00B46CBB /* LogInViewController.swift */,
 				849560B02459E39200B46CBB /* Assets.xcassets */,
 				849560B22459E39200B46CBB /* LaunchScreen.storyboard */,
@@ -151,7 +157,9 @@
 				849560C22459F32700B46CBB /* ARVC.swift in Sources */,
 				849560C02459F31100B46CBB /* HomeVC.swift in Sources */,
 				849560BC2459E8F600B46CBB /* FirstViewController.swift in Sources */,
+				84D9A877245B3A2900917063 /* ViewController.swift in Sources */,
 				849560A82459E38100B46CBB /* AppDelegate.swift in Sources */,
+				84D9A879245B4B2D00917063 /* FaceNode.swift in Sources */,
 				849560AA2459E38100B46CBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
