@@ -20,6 +20,20 @@ class ViewController: UIViewController {
     let features = ["face"]
     var featureIndices = [[6]]
     
+    //@IBOutlet weak var sView: UIImageView!
+    @IBOutlet weak var shutterView: UIView!
+    @IBAction func Snap(_ sender: UIButton) {
+        shutterView.alpha = 1.0
+        shutterView.isHidden = false
+        UIView.animate(withDuration: 5.0, animations: {
+            self.shutterView.alpha = 0.0
+        }){(finished) in
+            self.shutterView.isHidden = true
+            UIImageWriteToSavedPhotosAlbum(self.sceneView.snapshot(), nil, nil, nil)
+            //UIImage
+        }
+        
+    }
     /*private var originalJawY: Float = 0
     
     private lazy var jawNode = contentNode!.childNode(withName: "jaw", recursively: true)!
